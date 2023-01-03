@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier
+_commit: a82a167
+_src_path: gh:browniebroke/pypackage-template
+add_me_as_contributor: false
+copyright_year: '2023'
+documentation: true
+email: tomas@lipovo.cz
+full_name: Tomáš Lipovský
+github_username: lipov3cz3k
+initial_commit: false
+open_source_license: Apache Software License 2.0
+package_name: aicooking_ble
+project_name: Aicooking BLE
+project_short_description: Manage Aicooking BLE devices
+project_slug: aicooking-ble
+run_poetry_install: false
+setup_github: false
+setup_pre_commit: false
+
