@@ -32,6 +32,10 @@
 
 Manage Aicooking BLE devices
 
+- Aicooking
+  - [Shenzhen chuangxinlian Electronics CXL001](http://www.szfeierdz.com/?m=home&c=View&a=index&aid=30)
+  - [Tesla Cook BBQ100 (CXL001-Y)](https://www.tesla-electronics.eu/tesla-cook-bbq100/)
+
 ## Installation
 
 Install this via pip (or your favourite package manager):
