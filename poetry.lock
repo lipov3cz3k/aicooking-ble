@@ -47,6 +47,40 @@ files = [
 pytz = ">=2015.7"
 
 [[package]]
+name = "bluetooth-data-tools"
+version = "0.3.1"
+description = "Tools for converting bluetooth data and packets"
+category = "main"
+optional = false
+python-versions = ">=3.9,<4.0"
+files = [
+    {file = "bluetooth_data_tools-0.3.1-py3-none-any.whl", hash = "sha256:b7ebacecec2d30d69dd83077f7dce5da2eb713f040ddb7d5573a2c60078c313b"},
+    {file = "bluetooth_data_tools-0.3.1.tar.gz", hash = "sha256:247e896ec963bf2204c0e77bc5ec09dafaa4e065afffe38553b9d4d526b71617"},
+]
+
+[package.extras]
+docs = ["Sphinx (>=5.0,<6.0)", "myst-parser (>=0.18,<0.19)", "sphinx-rtd-theme (>=1.0,<2.0)"]
+
+[[package]]
+name = "bluetooth-sensor-state-data"
+version = "1.6.0"
+description = "Models for storing and converting Bluetooth Sensor State Data"
+category = "main"
+optional = false
+python-versions = ">=3.9,<4.0"
+files = [
+    {file = "bluetooth-sensor-state-data-1.6.0.tar.gz", hash = "sha256:ebd973a0859fd4b3c2204cd9451bbcdc6b01cd792924e9759549476f03cd8762"},
+    {file = "bluetooth_sensor_state_data-1.6.0-py3-none-any.whl", hash = "sha256:c647f442891fdc02f57fc79d09ab8eb66f5ac7213012b5607755d40bcaec17a9"},
+]
+
+[package.dependencies]
+home-assistant-bluetooth = ">=1.3.0"
+sensor-state-data = ">=2.0"
+
+[package.extras]
+docs = ["Sphinx (>=5.0,<6.0)", "myst-parser (>=0.18,<0.19)", "sphinx-rtd-theme (>=1.0,<2.0)"]
+
+[[package]]
 name = "certifi"
 version = "2022.12.7"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -178,6 +212,18 @@ files = [
 
 [package.extras]
 test = ["pytest (>=6)"]
+
+[[package]]
+name = "home-assistant-bluetooth"
+version = "1.9.1"
+description = "Home Assistant Bluetooth Models and Helpers"
+category = "main"
+optional = false
+python-versions = ">=3.9,<4.0"
+files = [
+    {file = "home_assistant_bluetooth-1.9.1-cp39-cp39-manylinux_2_31_x86_64.whl", hash = "sha256:25bd5264892cdee0027bb5d6217e3c7c08a333378370e928a26c288d891d5343"},
+    {file = "home_assistant_bluetooth-1.9.1.tar.gz", hash = "sha256:85cd26bbcb9bc1b9fead2a9c8d7ead24776bb854323a70380813a0baab47ddc8"},
+]
 
 [[package]]
 name = "idna"
@@ -558,6 +604,21 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "sensor-state-data"
+version = "2.13.0"
+description = "Models for storing and converting Sensor Data state"
+category = "main"
+optional = false
+python-versions = ">=3.9,<4.0"
+files = [
+    {file = "sensor_state_data-2.13.0-py3-none-any.whl", hash = "sha256:d729f657af6c35bf22f3876619e7eb0d0b05b8e4a86330bcdc8e15ba3f2fd334"},
+    {file = "sensor_state_data-2.13.0.tar.gz", hash = "sha256:4459941b491f0f99339a4df1bc1ab8f8abd11c76c4f853897b3fb13a5a93fa97"},
+]
+
+[package.extras]
+docs = ["Sphinx (>=5.0,<6.0)", "myst-parser (>=0.18,<0.19)", "sphinx-rtd-theme (>=1.0,<2.0)"]
+
+[[package]]
 name = "snowballstemmer"
 version = "2.2.0"
 description = "This package provides 29 stemmers for 28 languages generated from Snowball algorithms."
@@ -779,4 +840,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "0d3a8cc24c5f5163c558ed481e3e6a3a9c223a60c248f76dca43e59d60eb5b63"
+content-hash = "b68d789bd5774faa8db7df5dffeab8e4aef3509d0d2500a6648df70d44f807e9"
