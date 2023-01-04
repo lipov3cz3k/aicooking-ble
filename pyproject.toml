@@ -27,7 +27,7 @@ python = "^3.9"
 bluetooth-sensor-state-data = "^1.6.0"
 bluetooth-data-tools = "^0.3.1"
 sensor-state-data = "^2.13.0"
-home-assistant-bluetooth = "^1.9.1"
+home-assistant-bluetooth = "=1.9.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0"
