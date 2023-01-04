@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aicooking-ble"
-version = "0.0.1"
+version = "0.1.0"
 description = "Manage Aicooking BLE devices"
 authors = ["Tomáš Lipovský <tomas@lipovo.cz>"]
 license = "Apache Software License 2.0"
