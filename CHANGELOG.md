@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2023-01-05)
+### Fix
+* Bump dependencies ([`f1d1e46`](https://github.com/lipov3cz3k/aicooking-ble/commit/f1d1e46d12d88aa0d362575da49d7bfe2e6ff5db))
+
 ## v0.1.0 (2023-01-04)
 ### Feature
 * Init Aicooking parser ([`aa31512`](https://github.com/lipov3cz3k/aicooking-ble/commit/aa31512141ed7dc27267343c7a3580ab42230da8))
