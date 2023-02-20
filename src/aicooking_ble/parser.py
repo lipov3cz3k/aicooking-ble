@@ -33,7 +33,10 @@ class AicookingBluetoothDeviceData(BluetoothData):
         self.set_device_type(service_info.name)
 
         changed_manufacturer_data = self.changed_manufacturer_data(service_info)
-        if not changed_manufacturer_data:
+        if not changed_manufacturer_data or len(changed_manufacturer_data) > 1:
+            # If len(changed_manufacturer_data) > 1 it means we switched
+            # ble adapters so we do not know which data is the latest
+            # and we need to wait for the next update.
             return
 
         for mfr_id, mfr_data in changed_manufacturer_data.items():
