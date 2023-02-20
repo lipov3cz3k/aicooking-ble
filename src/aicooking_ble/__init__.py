@@ -17,7 +17,7 @@ from sensor_state_data import (
 
 from .parser import AicookingBluetoothDeviceData
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 __all__ = [
     "AicookingBluetoothDeviceData",
