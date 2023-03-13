@@ -698,14 +698,14 @@ use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "sensor-state-data"
-version = "2.13.0"
+version = "2.14.0"
 description = "Models for storing and converting Sensor Data state"
 category = "main"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "sensor_state_data-2.13.0-py3-none-any.whl", hash = "sha256:d729f657af6c35bf22f3876619e7eb0d0b05b8e4a86330bcdc8e15ba3f2fd334"},
-    {file = "sensor_state_data-2.13.0.tar.gz", hash = "sha256:4459941b491f0f99339a4df1bc1ab8f8abd11c76c4f853897b3fb13a5a93fa97"},
+    {file = "sensor_state_data-2.14.0-py3-none-any.whl", hash = "sha256:c966f8e6ce004ef1f8350dbf380b6eebf93df98af412917f120b70fe1c583e88"},
+    {file = "sensor_state_data-2.14.0.tar.gz", hash = "sha256:48a9aa94d90a5b294aa204d942d55ddfd58285e8cf801dea7e2eb6ca4dee26e2"},
 ]
 
 [package.extras]
