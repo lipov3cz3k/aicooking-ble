@@ -269,13 +269,13 @@ test = ["pytest (>=6)"]
 
 [[package]]
 name = "home-assistant-bluetooth"
-version = "1.9.3"
+version = "1.10.3"
 description = "Home Assistant Bluetooth Models and Helpers"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "home_assistant_bluetooth-1.9.3-cp310-cp310-manylinux_2_31_x86_64.whl", hash = "sha256:73e5767afbcccfa2fc3c7c619f7dc26951aec3b765f22e5a829dfe94cef48ab5"},
-    {file = "home_assistant_bluetooth-1.9.3.tar.gz", hash = "sha256:673115b2109e802f73ce0ac70dbc13a6011372c1e0ad5aa27cce7d13fd4a00d0"},
+    {file = "home_assistant_bluetooth-1.10.3-cp310-cp310-manylinux_2_31_x86_64.whl", hash = "sha256:7ba55ceb56108cc89b9564ef244316f7e254a0f0830fbe33f45ff95234a56b91"},
+    {file = "home_assistant_bluetooth-1.10.3.tar.gz", hash = "sha256:46f4403959911a2eed071bcbf7a076babcf677d140e731dbb01d3f23588fc98d"},
 ]
 
 [[package]]
