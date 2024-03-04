@@ -30,7 +30,7 @@ sensor-state-data = ">=2.13.0"
 home-assistant-bluetooth = ">=1.9.2"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.0"
+pytest = ">=7,<9"
 pytest-cov = ">=3,<5"
 
 [tool.poetry.group.docs]
