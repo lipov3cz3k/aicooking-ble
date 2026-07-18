@@ -93,7 +93,7 @@ jobs:
       # Build and publish to PyPI (only when a new version was released)
       - name: Build package
         if: steps.release.outputs.released == 'true'
-        run: pip install build && python -m build
+        run: pip install build && rm -rf dist/ && python -m build
 
       - name: Publish to PyPI
         if: steps.release.outputs.released == 'true'
