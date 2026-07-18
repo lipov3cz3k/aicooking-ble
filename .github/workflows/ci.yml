@@ -64,6 +64,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
     environment: release
+    permissions:
+      id-token: write
+      contents: write
     if: github.ref == 'refs/heads/main'
     needs:
       - test
@@ -85,4 +88,3 @@ jobs:
         uses: relekang/python-semantic-release@v9.8.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          pypi_token: ${{ secrets.PYPI_TOKEN }}
