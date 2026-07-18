@@ -4,6 +4,7 @@ https://github.com/Bluetooth-Devices/govee-ble/blob/432223ada34def7bb58a1601afdf
 
 MIT License applies.
 """
+
 from __future__ import annotations
 
 import logging

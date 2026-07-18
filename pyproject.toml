@@ -78,7 +78,6 @@ target-version = "py311"
 select = [
     "B",   # flake8-bugbear
     "C4",  # flake8-comprehensions
-    "D",   # pydocstyle
     "E",   # pycodestyle errors
     "F",   # pyflakes
     "I",   # isort
