@@ -83,8 +83,17 @@ jobs:
       # - Update version in code
       # - Create git tag
       # - Create GitHub release
-      # - Publish to PyPI
       - name: Python Semantic Release
-        uses: relekang/python-semantic-release@v9.8.3
+        id: release
+        uses: python-semantic-release/python-semantic-release@v9.8.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Build and publish to PyPI (only when a new version was released)
+      - name: Build package
+        if: steps.release.outputs.released == 'true'
+        run: pip install build && python -m build
+
+      - name: Publish to PyPI
+        if: steps.release.outputs.released == 'true'
+        uses: pypa/gh-action-pypi-publish@release/v1
