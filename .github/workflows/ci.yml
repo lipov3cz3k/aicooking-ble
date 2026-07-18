@@ -74,9 +74,10 @@ jobs:
       - commitlint
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          token: ${{ secrets.RELEASE_TOKEN || secrets.GITHUB_TOKEN }}
 
       # Run semantic release:
       # - Update CHANGELOG.md
@@ -87,7 +88,7 @@ jobs:
         id: release
         uses: python-semantic-release/python-semantic-release@v9.8.3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.RELEASE_TOKEN || secrets.GITHUB_TOKEN }}
 
       # Build and publish to PyPI (only when a new version was released)
       - name: Build package
