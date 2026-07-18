@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## v0.2.1 (2026-07-18)
+
+### Fix
+
+* fix(ci): add PyPI publish step after semantic-release
+
+The semantic-release action only creates GitHub releases but does not
+publish to PyPI. Added pypa/gh-action-pypi-publish with OIDC trusted
+publisher to automatically upload built artifacts to PyPI when a new
+version is released. ([`b4b17c2`](https://github.com/lipov3cz3k/aicooking-ble/commit/b4b17c2f259ed54094807c2939973759cb77d5d2))
+
+### Unknown
+
+* Merge pull request #106 from lipov3cz3k/fix/pypi-publish
+
+fix(ci): add PyPI publish step after semantic-release ([`3e1432e`](https://github.com/lipov3cz3k/aicooking-ble/commit/3e1432e5ace8cf639d7cbc2d97321fd1feec275c))
+
 ## v0.2.0 (2026-07-18)
 
 ### Chore
