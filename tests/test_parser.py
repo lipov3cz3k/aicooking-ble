@@ -1,4 +1,5 @@
-from bluetooth_sensor_state_data import BluetoothServiceInfo, DeviceClass, SensorUpdate
+from bluetooth_sensor_state_data import DeviceClass, SensorUpdate
+from home_assistant_bluetooth import BluetoothServiceInfo
 from sensor_state_data import (
     DeviceKey,
     SensorDescription,
