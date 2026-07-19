@@ -1,6 +1,6 @@
 [project]
 name = "aicooking-ble"
-version = "0.2.1"
+version = "0.3.0"
 description = "Manage Aicooking BLE devices"
 authors = [{ name = "Tomáš Lipovský", email = "tomas@lipovo.cz" }]
 license = "Apache-2.0"
