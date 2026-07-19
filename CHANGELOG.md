@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [0.3.1](https://github.com/lipov3cz3k/aicooking-ble/compare/aicooking-ble-v0.3.0...aicooking-ble-v0.3.1) (2026-07-19)
+
+
+### Bug Fixes
+
+* **ci:** combine release-please and publish workflows ([207e280](https://github.com/lipov3cz3k/aicooking-ble/commit/207e280ddbf1f3adc8035ac52863fc2f0cded224))
+* **ci:** combine release-please and publish workflows to bypass GITHUB_TOKEN loop prevention ([41b5a7a](https://github.com/lipov3cz3k/aicooking-ble/commit/41b5a7a459927e1358141cbd60f91d7eba16fdf5))
+* **ci:** trigger release to publish 0.3.1 to PyPI ([7f2ab80](https://github.com/lipov3cz3k/aicooking-ble/commit/7f2ab80eee0c9681b812526cc56f18608d61ddbd))
+
 ## [0.3.0](https://github.com/lipov3cz3k/aicooking-ble/compare/aicooking-ble-v0.2.1...aicooking-ble-v0.3.0) (2026-07-19)
 
 
