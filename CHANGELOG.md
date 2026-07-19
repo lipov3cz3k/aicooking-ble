@@ -1,5 +1,37 @@
 # CHANGELOG
 
+## [0.3.0](https://github.com/lipov3cz3k/aicooking-ble/compare/aicooking-ble-v0.2.1...aicooking-ble-v0.3.0) (2026-07-19)
+
+
+### Features
+
+* **ci:** migrate from python-semantic-release to release-please ([8938fbd](https://github.com/lipov3cz3k/aicooking-ble/commit/8938fbd3b90d5965275061390afa14e15639c802))
+* init Aicooking parser ([aa31512](https://github.com/lipov3cz3k/aicooking-ble/commit/aa31512141ed7dc27267343c7a3580ab42230da8))
+* **project:** support Python 3.11+ and Ruff formatting ([3d36f8f](https://github.com/lipov3cz3k/aicooking-ble/commit/3d36f8f1183d9433e8ccbaad5ad7c7ce6725da90))
+
+
+### Bug Fixes
+
+* account for switching adapter when finding changed_manufacturer_data ([d3aebaf](https://github.com/lipov3cz3k/aicooking-ble/commit/d3aebaf72540b28ab24ccdc1f603f37f7e31f4b6))
+* bump dependencies ([633bff1](https://github.com/lipov3cz3k/aicooking-ble/commit/633bff1820c089a717e95d54890941dfb3d6da6b))
+* bump dependencies ([f1d1e46](https://github.com/lipov3cz3k/aicooking-ble/commit/f1d1e46d12d88aa0d362575da49d7bfe2e6ff5db))
+* bump python min to 3.9 ([1e49782](https://github.com/lipov3cz3k/aicooking-ble/commit/1e4978207b869eee483de5ef669a8399c50aa33a))
+* bump python min to 3.9 ([c901215](https://github.com/lipov3cz3k/aicooking-ble/commit/c901215995976c92f5a2a343d70bc82d1d59a8f6))
+* **ci:** add PyPI publish step after semantic-release ([3e1432e](https://github.com/lipov3cz3k/aicooking-ble/commit/3e1432e5ace8cf639d7cbc2d97321fd1feec275c))
+* **ci:** add PyPI publish step after semantic-release ([b4b17c2](https://github.com/lipov3cz3k/aicooking-ble/commit/b4b17c2f259ed54094807c2939973759cb77d5d2))
+* **ci:** migrate from python-semantic-release to release-please ([a85e296](https://github.com/lipov3cz3k/aicooking-ble/commit/a85e29618e061ae07edf80815e4e106ff14237ab))
+* **ci:** rename release-please config file to remove leading dot ([c1e4da4](https://github.com/lipov3cz3k/aicooking-ble/commit/c1e4da4e335dbccf2ab6a87290bc5bdd93b622d3))
+* **ci:** rename release-please config file to remove leading dot ([da60b4d](https://github.com/lipov3cz3k/aicooking-ble/commit/da60b4d76d4fe27d6f5080bbf2dea4c7ae4739a7))
+* downgrade home-assistant-bluetooth, due to missing bleak dependency ([4c6941c](https://github.com/lipov3cz3k/aicooking-ble/commit/4c6941cbc2c271213d6351756e6283fb454ac2e1))
+* update python semantic release job ([a0a5c8e](https://github.com/lipov3cz3k/aicooking-ble/commit/a0a5c8ea95a87da1d798c50cfe325f4e10d5c85a))
+* update python semantic release job ([540f8b2](https://github.com/lipov3cz3k/aicooking-ble/commit/540f8b25de819e1a26570d29b55df870fe465b21))
+
+
+### Documentation
+
+* update README code style badge to ruff ([6881d30](https://github.com/lipov3cz3k/aicooking-ble/commit/6881d3033c0ce0fd107f65cb201afba94383fdec))
+* update README code style badge to ruff ([36bf137](https://github.com/lipov3cz3k/aicooking-ble/commit/36bf137c45f1c5297a23e19b442e4a654e5c7dac))
+
 ## v0.2.1 (2026-07-18)
 
 ### Fix
